@@ -3,7 +3,7 @@ Images = new FS.Collection("images", {
         new FS.Store.GridFS("original"),
         new FS.Store.GridFS("thumbnail", {
             transformWrite: function(fileObj, readStream, writeStream) {
-                gm(readStream, fileObj.name()).resize('32', '32', '!').stream().pipe(writeStream);
+                gm(readStream, fileObj.name()).resize('75', '75', '!').stream().pipe(writeStream);
             }
         })
     ],

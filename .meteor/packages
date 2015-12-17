@@ -9,10 +9,10 @@ insecure
 cfs:standard-packages
 cfs:gridfs
 cfs:graphicsmagick
-jonblum:jquery-cropper
+#jonblum:jquery-cropper
 angular
-velocity:html-reporter
-xolvio:cucumber
+#velocity:html-reporter
+#xolvio:cucumber
 standard-minifiers
 meteor-base
 mobile-experience
